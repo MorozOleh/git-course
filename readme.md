@@ -31,3 +31,21 @@ git checkout -B new;
 
 in this case, we can merge both branches :
 git merge (name of second branch);
+
+--
+--Attention--
+--
+When we merge these branches, the old branch we must delete
+
+Connect local git with GitHub:
+git remote add origin https://github.com/MorozOleh/git-course.git
+
+git config --global user.name;
+or
+git config --global user.name 'new name your repo';
+
+add your email:
+git config -- global user.email;
+
+in this case, we can push our date to GitHub:
+git push -u origin master
