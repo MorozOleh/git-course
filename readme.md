@@ -14,5 +14,20 @@ git commit -m(minus message) "(name of commit)" --(command saves new change);
 
 if we want to add a folder to .gitignore we will type a / before name of a folder
 
+if we want to know which branch is we will type (---- git branch ---);
+
+//------------------------------------------------------------------
+
+to create new branch for another developer;
+
+type --- git branch test (-- test other name of branch);
+type --- git branch -D test (--This command allows to delete branch with a name which you want)
+
+in this case, we change branch, We use the next command for that.
+git checkout readme (--command for change--);
+
+to create new branch and switch to this branch;
+git checkout -B new;
+
 in this case, we can merge both branches :
 git merge (name of second branch);
