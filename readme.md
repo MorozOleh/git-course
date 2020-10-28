@@ -49,3 +49,5 @@ git config -- global user.email;
 
 in this case, we can push our date to GitHub:
 git push -u origin master
+
+Always when we do some commits we must push the latest changes;
