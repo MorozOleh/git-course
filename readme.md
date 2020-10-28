@@ -13,3 +13,6 @@ git add . --(this command adds all new files);
 git commit -m(minus message) "(name of commit)" --(command saves new change);
 
 if we want to add a folder to .gitignore we will type a / before name of a folder
+
+in this case, we can merge both branches :
+git merge (name of second branch);
